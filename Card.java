@@ -35,6 +35,7 @@ public class Card extends Actor
        this.shading = shading;
        this.cardImage = cardImage;
        this.selectedCardImage = selectedCardImage;
+       setImage(cardImage);
    }
    
    public Shape getShape()
